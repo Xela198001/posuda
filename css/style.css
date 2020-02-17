@@ -1,0 +1,85 @@
+
+/* @media (min-width: 1200px) { */
+    .header {
+    background-color: white;
+    height: 150px;
+}
+.fa-3 {
+font-size: 3rem;
+color: darkgray;
+}
+div.row {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: relative;
+}
+div.logo {
+    padding-top: 30px;
+}
+div.search {
+    padding-top: 45px;
+}
+div.phone {
+    padding-top: 35px;
+}
+input#search {
+    width: 200px;
+}
+div.basket > div  {
+margin: 5px;
+border: 1px solid darkred;
+padding: 10px;
+height: 135px;
+}
+div {
+    border: 1px solid darkgray;
+}
+.phone > p {
+    color: lightgray;
+}
+
+.jumbotron {
+    padding: 0px;
+}
+
+.navbar {
+    position: relative;
+}
+div.nav-left {
+    border: 1px solid darkred;
+}
+
+@media (max-width: 1200px) {
+.navbar { margin-top: 0px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 992px) {
+    .navbar { margin-top: 150px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    }
+    .header {
+        background-color: white;
+        height: 650px;
+        position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar { margin-top: 0px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar { margin-top: 0px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    }
+    .header {
+        height: 650px;
+        position: relative;
+    }
+}
+}
+/* } */
